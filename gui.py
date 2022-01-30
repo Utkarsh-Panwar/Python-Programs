@@ -19,7 +19,7 @@ class Frame2(Frame):
     def __init__(self):
         new =Frame.__init__(self)
         new = Toplevel(self)
-        new.title("TechGuru New Window")
+        new.title("Utkarsh New Window")
         new.button = Button(  text = "PRESS TO CLOSE", width = 25,
                                  command = self.close_window )
         new.button.pack()
